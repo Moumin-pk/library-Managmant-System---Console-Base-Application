@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace library_Managmant_System___Console_Base_Application
 {
-    internal class Author
+    public class Author
     {
         public int Id { get; private set; }
 
@@ -17,5 +17,6 @@ namespace library_Managmant_System___Console_Base_Application
             Id = id;
         ; Name = name;
         }
+        
     }
 }
